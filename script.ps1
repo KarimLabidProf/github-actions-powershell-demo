@@ -5,4 +5,4 @@ param (
 
 Write-Host "Hello from PowerShell! Running in $Env environment."
 
-Write-Host " Première exécution de github Action
+Write-Host " Première exécution de github Action"
