@@ -1,0 +1,19 @@
+name: PowerShell Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run PowerShell script
+      shell: pwsh
+      run: |
+        .\script.ps1
